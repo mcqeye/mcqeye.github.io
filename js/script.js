@@ -96,7 +96,6 @@ $(function() {
             nav: false,
             center: true,
 			autoWidth:true,
-			margin:10,
             loop: true,
             autoplay: true,
             dots: true,
