@@ -95,17 +95,17 @@ $(function() {
         $galleryDiv.owlCarousel({
             nav: false,
             center: true,
-			autoWidth:true,
             loop: true,
             autoplay: true,
             dots: true,
             navText: ['<span class="ti-arrow-left"></span>', '<span class="ti-arrow-right"></span>'],
+			responsiveClass:true,
             responsive: {
                 0: {
                     items: 1
                 },
                 768: {
-                    items: 3
+                    items: 1
                 }
             }
         });
