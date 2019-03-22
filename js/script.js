@@ -79,6 +79,7 @@ $(function() {
     /*-----------------------------------
      * OWL CAROUSEL
      *-----------------------------------*/
+	
     var $testimonialsDiv = $('.testimonials');
     if ($testimonialsDiv.length && $.fn.owlCarousel) {
         $testimonialsDiv.owlCarousel({
@@ -94,6 +95,8 @@ $(function() {
         $galleryDiv.owlCarousel({
             nav: false,
             center: true,
+			autoWidth:true,
+			margin:10,
             loop: true,
             autoplay: true,
             dots: true,
