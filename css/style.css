@@ -156,7 +156,12 @@ p.lead {
 .section {
     padding: 80px 0;
 }
-
+#documentation{
+    background-color: #ffd7cf;
+}
+#documentation .container a{
+    font-size: 20px;
+}
 .section-title {
     text-align: center;
     margin-bottom: 3rem;
