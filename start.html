@@ -19,6 +19,7 @@
     <link rel="icon" href="images/logoTransparentBlack.png">
     <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     
 </head> 
 
@@ -73,58 +74,95 @@
                             <section id="installation-section" class="doc-section">
                                 <h2 class="section-title">Usage</h2>
                                 <div id="step1"  class="section-block">
-                                    <h3 class="block-title">Step One</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis.
-                                    </p>
+                                    <h3 class="block-title">Step One (Creating Model Answer)</h3>
+                                    <p>First thing, You need to create model answer as the model answer is the basis for the program to work, also it's used for grading students, reports generating and all graded students data are stored under this model answer. </p>
                                     <div class="code-block">
-                                        <h6>Default code example:</h6>
-                                        <p><code>bower install &lt;package&gt;</code></p>
-                                        <p><code>npm install &lt;package&gt;</code></p>
+                                      <h6>To create model you have to provide :</h6>
+                                      <code>
+											<ul>
+											  <li> You have to specify the method for creating the model answer whether by scanning the model answer paper or enter the model answer directly via the program. </li>
+											  <li> Course name (Subject Name)</li>
+											<li> Exam Type (e.g. Midterm, Final ... ) </li>
+											
+											<li> Semester</li>
+												<li> Exam Level</li>
+													<li> Number of questions if answers will be added directly via the program</li>
+												</ul>
+											</code>
                                     </div><!--//code-block-->
+									 <div class="code-block">
+									   <h6>To modify the model :</h6>
+									   <code>
+											<ul>
+											  <li> You have to specify which model to modify by selecting it's information. </li>
+												<li> You can add or delete questions ( minimum number of questions 10 and maximum 100 ) by the plus button in the left of the questions list you can add questions and the bin button used for deleting the question after selecting it. and saving changes using save button </li>
+												<li> You can also delete the model and it's corresponding data by pressing delete model button. </li>
+											 
+									   </ul>
+									   </code>
+                                  </div><!--//code-block-->
+									<div class="row">
+										    <div class="col-md-6 col-12">
+                                            <h6>Model Creation Example</h6>
+                                            <img src="images/1.PNG"  class="col md-6"/>
+                                        </div>
+									 	    <div class="col-md-6 col-12">
+                                            <h6>Model Modify</h6>
+                                            <img src="images/2.PNG"  class="col md-6"/>
+                                        </div>
+                                    
+									</div>
                                 </div><!--//section-block-->
                                 <div id="step2"  class="section-block">
-                                    <h3 class="block-title">Step Two</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                                    </p>
-                                    <div class="row">
-                                        <div class="col-md-6 col-12">
-                                            <h6>Un-ordered list example</h6>
-                                            <ul class="list">
-        										<li>Lorem ipsum dolor sit amet.</li>
-        										<li>Aliquam tincidunt mauris.</li>
-        										<li>Ultricies eget vel aliquam libero.
-        											<ul>
-        												<li>Turpis pulvinar</li>
-        												<li>Feugiat scelerisque</li>
-        												<li>Ut tincidunt</li>
-        											</ul>
-        										</li>
-        										<li>Pellentesque habitant morbi.</li>
-        										<li>Praesent dapibus, neque id.</li>
-        									</ul>
+                                    <h3 class="block-title">Step Two (Creating Questions Paper)</h3>
+                                    <p>In this step you can create question paper for students with customizable header but the number of questions in paper is fixed ( 100 question/paper ). </p>
+                                    <div class="code-block">
+                                      <h6>To create questions paper :</h6>
+                                      <code>
+											<ul>
+											  <li> You have to specify the subject name (Course name), level, department, exam date, univirsity logo path, and finally the language of the paper (you can select between arabic and english this will change the language of the instructions and header of the paper) </li>
+											  <li> by clicking create this will show save dialog to select where to save the paper</li>
+											<li> paper is saved as PDF file </li>
+										  </ul>
+											</code>
+                                    </div><!--//code-block-->
+									<div class="row">
+										    <div class="col-md-6 col-12">
+                                            <h6>Paper Creation Example</h6>
+                                            <img src="images/3.PNG"  class="col md-6"/>
                                         </div>
-                                        <div class="col-md-6 col-12">
-                                            <h6>Ordered list example</h6>
-                                            <ol class="list">
-        										<li>Lorem ipsum dolor sit amet.</li>
-        										<li>Aliquam tincidunt mauris.</li>
-        										<li>Ultricies eget vel aliquam libero.
-        											<ul>
-        												<li>Turpis pulvinar</li>
-        												<li>Feugiat scelerisque</li>
-        												<li>Ut tincidunt</li>
-        											</ul>
-        										</li>
-        										<li>Pellentesque habitant morbi.</li>
-        										<li>Praesent dapibus, neque id.</li>
-        									</ol>
+									 	    <div class="col-md-6 col-12">
+                                            <h6>Paper Example</h6>
+                                            <img src="images/4.PNG"  class="col md-6"/>
                                         </div>
-                                    </div><!--//row-->
+                                    
+									</div>
                                 </div><!--//section-block-->
                                 <div id="step3"  class="section-block">
-                                    <h3 class="block-title">Step Three</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis.
-                                    </p>
+                                    <h3 class="block-title">Step Three Grading Exams</h3>
+                                   <p>In this step you can grade scanned exams by openning <b>papers processing</b> window in the navigation drawer this process requires excel sheet with two columns
+									   student ID column and name column or in arabic (اسم الطالب و رقم الجلوس), all images will be graded and compared to the excel sheet if the id in the scanned paper is found in the excel sheet then the student name will appear corresponding to his/her mark and another excel sheet will be generated containing student name with and all marks information. </p>
+                                    <div class="code-block">
+                                      <h6>To create questions paper :</h6>
+                                      <code>
+											<ul>
+											  <li> You have to specify the subject name (Course name), level, department, exam date, univirsity logo path, and finally the language of the paper (you can select between arabic and english this will change the language of the instructions and header of the paper) </li>
+											  <li> by clicking create this will show save dialog to select where to save the paper</li>
+											<li> paper is saved as PDF file </li>
+										  </ul>
+											</code>
+                                    </div><!--//code-block-->
+									<div class="row">
+										    <div class="col-md-6 col-12">
+                                            <h6>Paper Creation Example</h6>
+                                            <img src="images/3.PNG"  class="col md-6"/>
+                                        </div>
+									 	    <div class="col-md-6 col-12">
+                                            <h6>Paper Example</h6>
+                                            <img src="images/4.PNG"  class="col md-6"/>
+                                        </div>
+                                    
+									</div>
                                 </div><!--//section-block-->
                             </section><!--//doc-section-->
                         </div><!--//content-inner-->
@@ -135,11 +173,7 @@
 	                            <nav id="doc-menu" class="nav doc-menu flex-column sticky">
 	                                <a class="nav-link scrollto" href="#download-section">Download</a>
 	                                <a class="nav-link scrollto" href="#installation-section">Usage</a>
-                                    <nav class="doc-sub-menu nav flex-column">
-                                        <a class="nav-link scrollto" href="#step1">Step One</a>
-                                        <a class="nav-link scrollto" href="#step2">Step Two</a>
-                                        <a class="nav-link scrollto" href="#step3">Step Three</a>
-                                    </nav><!--//nav-->
+                                    <nav class="doc-sub-menu nav flex-column"><a class="nav-link scrollto" href="#step1">Step One (Creating Model Answer)</a> <a class="nav-link scrollto" href="#step2">Step Two&nbsp;(Creating Questions Paper)</a> <a class="nav-link scrollto" href="#step3">Step Three (Grading and report generating)</a></nav><!--//nav-->
 	                            </nav><!--//doc-menu-->
 	                        
                         </div>
