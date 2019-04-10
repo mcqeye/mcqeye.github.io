@@ -22,7 +22,11 @@ font-family: 'Ubuntu', sans-serif;
 html, body {
   height: 100%;
 }
-
+#ar-btn{
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
 .page-wrapper {
   min-height: 100%;
   /* equal to footer height */
